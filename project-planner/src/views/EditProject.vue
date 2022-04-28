@@ -15,7 +15,7 @@ export default {
         return{
             title: '',
             detail: '',
-            uri: 'http://localhost:3000/projects/' + this.id
+            uri: 'https://my-json-server.typicode.com/CharmaineHYM/check-list-data/projects/' + this.id
         }
     },
     mounted(){

@@ -23,7 +23,7 @@ export default {
                 detail: this.details,
                 complete: false
             }
-        fetch('http://localhost:3000/projects', {
+        fetch('https://my-json-server.typicode.com/CharmaineHYM/check-list-data/projects', {
             method:'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(project)
